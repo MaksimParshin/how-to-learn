@@ -27,7 +27,7 @@
 }
 
 .logo {
-  background-size: center center;
+background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -166,10 +166,10 @@
 }
 
 .table {
+  max-width: 1100px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -283,4 +283,85 @@
   background-repeat: no-repeat;
   width: 877px;
   height: 877px;
+}
+
+/* footer */
+.footer {
+  min-height: 350px;
+  background-color: #1f1f1f;
+}
+
+.footer__columns {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 40px;
+
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  min-height: 250px;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__logo_place {
+  background-image: url(../images/logo_place_footer.svg);
+  width:228px;
+  height: 32px;
+}
+
+.footer__author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer__column-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.footer__column-link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.footer__social-icon {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__social-icon_yt {
+  background-image: url(../images/youtube-icon.svg);
+}
+.footer__social-icon_vk {
+  background-image: url(../images/vk_color_white.svg);
+}
+
+.footer__social-icon_tk {
+  background-image: url(../images/tiktok-icon.svg);
 }
