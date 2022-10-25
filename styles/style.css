@@ -27,7 +27,7 @@
 }
 
 .logo {
-background-position: center center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -44,6 +44,7 @@ background-position: center center;
 
 .header__title {
   width: 730px;
+  margin: 0;
   margin-left: 64px;
   font-size: 102px;
   line-height: 96px;
@@ -52,6 +53,7 @@ background-position: center center;
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -112,6 +114,7 @@ background-position: center center;
 
 .two-column__brief {
   width: 175px;
+  margin: 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -124,7 +127,7 @@ background-position: center center;
 }
 
 .two-column__paragraph {
-  margin-bottom: 0;
+  margin: 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
@@ -221,8 +224,7 @@ background-position: center center;
 .feynman__subtitle {
   width: 648px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 0 auto;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
@@ -310,7 +312,7 @@ background-position: center center;
 
 .footer__logo_place {
   background-image: url(../images/logo_place_footer.svg);
-  width:228px;
+  width: 228px;
   height: 32px;
 }
 
@@ -358,6 +360,7 @@ background-position: center center;
 .footer__social-icon_yt {
   background-image: url(../images/youtube-icon.svg);
 }
+
 .footer__social-icon_vk {
   background-image: url(../images/vk_color_white.svg);
 }
