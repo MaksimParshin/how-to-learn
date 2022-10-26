@@ -98,14 +98,14 @@
   margin-top: 100px;
 }
 
-.two-columns {
+.description__two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
 }
 
-.two-column__brief {
+.description__brief {
   width: 175px;
   margin: 0;
   font-size: 18px;
@@ -114,23 +114,23 @@
   color: #2f80ed;
 }
 
-.two-column__main-text {
+.description__main-text {
   width: 80%;
   min-width: 784px;
 }
 
-.two-column__paragraph {
+.description__paragraph {
   margin: 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
 }
 
-.two-column__paragraph:not(:last-child) {
+.description__paragraph:not(:last-child) {
   margin-bottom: 30px;
 }
 
-.two-column__span-accent {
+.description__span-accent {
   font-weight: 600;
 }
 
@@ -203,6 +203,7 @@
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 867px 637px;
+  box-sizing: border-box;
 }
 
 .feynman__title {
