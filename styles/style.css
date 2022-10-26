@@ -98,14 +98,14 @@
   margin-top: 100px;
 }
 
-.description__two-columns {
+.two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
 }
 
-.description__brief {
+.two-columns__brief {
   width: 175px;
   margin: 0;
   font-size: 18px;
@@ -114,23 +114,23 @@
   color: #2f80ed;
 }
 
-.description__main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
 }
 
-.description__paragraph {
+.two-columns__paragraph {
   margin: 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
 }
 
-.description__paragraph:not(:last-child) {
+.two-columns__paragraph:not(:last-child) {
   margin-bottom: 30px;
 }
 
-.description__span-accent {
+.two-columns__span-accent {
   font-weight: 600;
 }
 
