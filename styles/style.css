@@ -20,6 +20,7 @@
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .logo {
@@ -93,9 +94,23 @@
   background-color: #2f80ed;
 }
 
+.rotation {
+  animation: rotat 20s linear infinite;
+}
+
+@keyframes rotat {
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* section description */
 .description {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -134,10 +149,80 @@
   font-weight: 600;
 }
 
+/* section techniques */
+.techniques {
+  padding-top: 100px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 920px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.cards__item {
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.cards__item:not(:nth-last-child(3n)) {
+  margin-right: 100px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 43px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.cards__description {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+}
+
+/* section video */
+.video {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.video__iframes {
+  max-width: 1050px;
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px
+}
+
 /* section digits */
 
 .digits {
-  margin: 100px 0;
+  padding: 100px 0;
   width: 100%;
 }
 
