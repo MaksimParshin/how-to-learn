@@ -219,6 +219,13 @@
   height: 316px
 }
 
+/* section oakley */
+
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
+}
+
 /* section digits */
 
 .digits {
@@ -288,6 +295,7 @@
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 867px 637px;
+  background-color: #f2f2f2;
   box-sizing: border-box;
 }
 
@@ -312,7 +320,7 @@
 .feynman__link {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 48px;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
